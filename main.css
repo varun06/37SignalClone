@@ -1,0 +1,197 @@
+/* ======CSS Reset ======= */
+
+/* ========================
+CSS Reset
+=========================*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ====CSS Reset Ends here ======= */
+
+/* ==== My Styles ======= */
+
+body {
+    margin: 20px;
+    font-family: 'Times New Roman' Georgia serif;
+}
+
+.Date {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 20px;
+    margin-right: 750px;
+    margin-left: 55px;
+}
+
+.Date:hover {
+    color: #999999;
+}
+.header {
+    margin: 20px 15px 0 0;
+
+    font-family: 'Lucida Grande' Verdana sans-serif;
+}
+
+nav {
+    position: absolute;
+    right: 55px;
+}
+
+nav > ul > li {
+    display: inline;
+    padding-left: 15px;
+    color: #336699;
+    font-size: 12px;
+}
+
+nav > ul > li:hover {
+    color: #6699cc;
+    cursor: pointer;
+}
+
+nav > ul > li:last-child {
+    color: #6699cc;
+}
+
+nav > ul > li:last-child:hover {
+    color: #336699;
+}
+
+.container {
+    clear: both;
+}
+
+#logo {
+    margin: 55px 0 0 605px;
+}
+
+.container > h1 {
+    font-size: 58px;
+    text-align: center;
+    margin: 15px 200px 0 200px;
+    font-weight: bold;
+}
+
+.container > h3 {
+    font-size: 20px;
+    margin: 20px 270px 0 270px;
+    font-weight: bold;
+}
+
+.boxes {
+    position: absolute;
+    top: 300px;
+    left: 350px;
+}
+
+.boxes:hover {
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+    width: 250px;
+    height: 300px;
+    padding: 2px;
+    border: 35px solid #fff;
+    background: #f7f7f7;
+    border-radius: 35px;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a > .left > img {
+    margin: 10px 25px;
+}
+
+.productName {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 5px;
+    color: #336699;
+    line-height: 27px;
+    font-weight: bold;
+    font-family: 'Lucida Grande' Verdana sans-serif;
+}
+
+.secondText {
+    text-align: center;
+    font-size: 14px;
+    color: #cc0000;
+    margin-top: 4px;
+    line-height: 27px;
+    font-weight: bold;
+    font-family: 'Lucida Grande' Verdana sans-serif;
+}
+
+.thirdText {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19.5px;
+    font-family: 'Lucida Grande' Verdana sans-serif;
+}
+
+.reg {
+    font-size:10px;
+}
+
+#star {
+    font-size: 42px;
+    color: #cfcfcf;
+    position: relative;
+    top: 10px;
+    left: 340px;
+    clear: both;
+}
