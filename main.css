@@ -1,6 +1,5 @@
-/* ======CSS Reset ======= */
+/* ======CSS Reset =======
 
-/* ========================
 CSS Reset
 =========================*/
 
@@ -29,25 +28,31 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -74,6 +79,7 @@ body {
 .Date:hover {
     color: #999999;
 }
+
 .header {
     margin: 20px 15px 0 0;
 
@@ -85,7 +91,7 @@ nav {
     right: 55px;
 }
 
-nav > ul > li {
+nav li {
     display: inline;
     padding-left: 15px;
     color: #336699;
@@ -113,7 +119,14 @@ nav > ul > li:last-child:hover {
     margin: 55px 0 0 605px;
 }
 
+.logo {
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
 .container > h1 {
+/*    position:fixed;*/
     font-size: 58px;
     text-align: center;
     margin: 15px 200px 0 200px;
@@ -128,8 +141,8 @@ nav > ul > li:last-child:hover {
 
 .boxes {
     position: absolute;
-    top: 300px;
-    left: 350px;
+    top: 320px;
+    left: 380px;
 }
 
 .boxes:hover {
@@ -138,17 +151,18 @@ nav > ul > li:last-child:hover {
 
 .left {
     float: left;
-    width: 250px;
-    height: 300px;
+    width: 180px;
+    height: 250px;
     padding: 2px;
-    border: 35px solid #fff;
+    border: 1px solid #E0E0E0;
+    margin-right: 30px;
     background: #f7f7f7;
-    border-radius: 35px;
+    border-radius: 4px;
 }
 
 .box-sizing {
     box-sizing: border-box;
-    margin: 0;
+/*    margin: 0;*/
 }
 
 a > .left > img {
@@ -156,6 +170,8 @@ a > .left > img {
 }
 
 .productName {
+    position: relative;
+    top: 20px;
     text-decoration: underline;
     text-align: center;
     font-size: 21px;
@@ -167,6 +183,8 @@ a > .left > img {
 }
 
 .secondText {
+    position: relative;
+    top: 20px;
     text-align: center;
     font-size: 14px;
     color: #cc0000;
@@ -177,6 +195,8 @@ a > .left > img {
 }
 
 .thirdText {
+    position: relative;
+    top: 25px;
     text-align: center;
     font-size: 14px;
     line-height: 19.5px;
@@ -185,6 +205,8 @@ a > .left > img {
 
 .reg {
     font-size:10px;
+    vertical-align:super;
+    text-transform: none;
 }
 
 #star {
