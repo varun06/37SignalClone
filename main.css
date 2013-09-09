@@ -140,8 +140,8 @@ nav > ul > li:last-child:hover {
 }
 
 .boxes {
-    position: absolute;
-    top: 320px;
+    position: relative;
+    top: 75px;
     left: 380px;
 }
 
@@ -209,11 +209,13 @@ a > .left > img {
     text-transform: none;
 }
 
-#star {
-    font-size: 42px;
-    color: #cfcfcf;
-    position: relative;
-    top: 10px;
-    left: 340px;
+hr {
     clear: both;
+    position: relative;
+    top: 120px;
+    left: -10px;
+    background: url("img-hr.png") no-repeat 50% 50%;
+    color: transparent;
+    height: 12px;
+    border: 0;
 }
