@@ -83,7 +83,7 @@ body {
 
 .header {
     margin: 20px 15px 0 0;
-
+        float:right;
     font-family: 'Lucida Grande' Verdana sans-serif;
 }
 
@@ -96,7 +96,6 @@ nav {
 
 nav li {
     display: inline;
-    float:right;
     padding-left: 15px;
     color: #336699;
     font-size: 12px;
