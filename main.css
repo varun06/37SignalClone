@@ -71,6 +71,7 @@ body {
 .Date {
     font-size: 12px;
     color: #999999;
+    float: left;
     margin-left: 20px;
     margin-right: 750px;
     margin-left: 55px;
@@ -86,13 +87,16 @@ body {
     font-family: 'Lucida Grande' Verdana sans-serif;
 }
 
+/*
 nav {
     position: absolute;
     right: 55px;
 }
+*/
 
 nav li {
     display: inline;
+    float:right;
     padding-left: 15px;
     color: #336699;
     font-size: 12px;
@@ -140,9 +144,8 @@ nav > ul > li:last-child:hover {
 }
 
 .boxes {
-    position: relative;
-    top: 75px;
-    left: 380px;
+    margin-left: 350px;
+    margin-top: 40px;
 }
 
 .boxes:hover {
@@ -211,9 +214,8 @@ a > .left > img {
 
 hr {
     clear: both;
-    position: relative;
-    top: 120px;
-    left: -10px;
+    margin-top: 5px;
+    padding-top: 40px;
     background: url("img-hr.png") no-repeat 50% 50%;
     color: transparent;
     height: 12px;
