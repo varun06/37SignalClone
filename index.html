@@ -6,10 +6,9 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="header"><!-- Header for nav-->
-        <nav>
+    <div class="nav">
             <ul>
-                <li class="Date">
+                <li class="date">
                     <script type="text/javascript">
       // Array of day names
       var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
@@ -18,55 +17,62 @@
       document.write("Happy " + dayNames[now.getDay()] + ".");
         </script>
                 </li>
-                <li>Company Blog</li>
-                <li>Follow us on Twitter</li>
-                <li>Our Story</li>
-                <li>System Status</li>
-                <li>Sign in</li>
+                    <li>Company Blog</li>
+                    <li>Our Story</li>
+                    <li>Follow us on Twitter</li>
+                    <li>System Status</li>
+                    <li>Sign in</li>
             </ul>
-        </nav>
-    </div><!-- Header ends here -->
-
+    </div>
 
     <div class="container">
-        <img id="logo" src="images/logo-37s-large.png" alt="37Signal Logo">
+		<img src="images/logo-37s-large.png" class="logo">
+		<h1>Making collaboration productive and enjoyable for people every day.</h1>
+		<p class="tagline">Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p>
+		<a href="#" class="productSection">
+			<img src="images/logo-bc.png" alt="">
+			<h2><span class="heading">Basecamp</span><span class="symbol">&copy;</span></h2>
+			<p class="description">Manage Projects</p>
+			<p class="detailDesc">Used by millions for project management.</p>
+		</a>
 
-        <h1>
-            Making collaboration productive and enjoyable for people every day.
-        </h1>
+		<a href="#" class="productSection">
+			<img src="images/logo-hr.png" alt="">
+			<h2><span class="heading">Highrise</span><span class="symbol">&copy;</span></h2>
+			<p class="description">Manage Contracts</p>
+			<p class="detailDesc">Know the people you do business with.</p>
+		</a>
 
-        <h3>Frustration-free web-based apps for collaboration, 
-        sharing information, and making decisions.</h3>
+		<a href="#" class="productSection">
+			<img src="images/logo-cf.png" alt="">
+			<h2><span class="heading">Campfire</span><span class="symbol">TM</span></h2>
+			<p class="description">Work in Real-Time</p>
+			<p class="detailDesc">Group chat rooms for your business.</p>
+		</a>
 
-        <div class="boxes">
-            
-                <div class="left box-sizing">
-                    <img class="logo" src="images/logo-bc.png" alt="BaseCamp Logo">
-                    <h1 class="productName">BaseCamp <span class="reg">&reg;</span></h1>
-                    <p class="secondText">Manage Projects</p>
-                    <p class="thirdText"> Used by millions for project management. </p>
-                </div>
-            
+		<hr>
+	</div><!--end .container-->
 
+
+    <script src="jQuery2.0.3.js"></script>
+    
+    <script>
+        $('.bc').hide();
+        $('.hr').hide();
+        $('.cf').hide();
         
-            <div class="left box-sizing">
-                <img class="logo" src="images/logo-hr.png" alt="BaseCamp Logo">
-                    <h1 class="productName">HighRise <span class="reg">&reg;</span></h1>
-                    <p class="secondText">Manage Contacts</p>
-                    <p class="thirdText"> Know the people you do business with. </p>
-            </div>
+        //When the Image is hovered upon, show the hidden div using Mouseover
+        $('.left').mouseover(function() {
+            $('.headings').hide();
+            $('.bc').show();
+        });
         
-
-        
-            <div class="left box-sizing">
-                <img class="logo" src="images/logo-cf.png" alt="BaseCamp Logo">
-                    <h1 class="productName">CampFire <span class="reg">&trade;</span></h1>
-                    <p class="secondText">Work in Real-Time</p>
-                    <p class="thirdText"> Group chat rooms for your business. </p>
-            </div>
-        </div>
-        <hr>
-    </div>
+        //When the Image is hovered away from, hide the div using Mouseout
+        $('.left').mouseout(function() {
+            $('.bc').hide();
+            $('.headings').show();
+        });
+    </script>
     
 </body>
 </html>
