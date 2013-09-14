@@ -96,6 +96,7 @@ body {
     text-decoration: none;
     cursor: text;
 }
+
 .nav li {
     list-style: none;
     display: inline;
@@ -118,82 +119,115 @@ body {
 }
 
 .container {
-	width: 900px;
-	clear: both;
-	margin: 0 auto;
-	text-align: center;
-	overflow: auto;
+    width: 900px;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
 }
 
 h1 {
-	font-size: 58px;
-	padding-top: 20px;
-	letter-spacing: -.05em;
+    font-size: 58px;
+    padding-top: 20px;
+    letter-spacing: -.05em;
 }
 
 .logo {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .tagline {
-	font-size: 20px;
-	padding: 25px 0;
+    font-size: 20px;
+    padding: 25px 0;
 }
 
 .productSection {
     font-family: 'Lucida Grande' Verdana sans-serif;
-	background: #F4F4F4;
-	display: block;
-	float: left;
-	border: 1px solid #E8E8E8;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-box-shadow: 0 0 5px 0 #EFEFEF;
-	box-shadow: 0 0 5px 0 #EFEFEF;
-	text-decoration: none;
-	padding: 25px 9px 29px;
-	font-size: 14px;
-	width: 165px;
-	margin: 10px 20px 35px;
+    background: #F4F4F4;
+    display: block;
+    float: left;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #EFEFEF;
+    text-decoration: none;
+    padding: 25px 9px 29px;
+    font-size: 14px;
+    width: 165px;
+    margin: 10px 20px 35px;
 }
 
 .productSection:first-of-type {
-	margin-left: 129px;
+    margin-left: 129px;
 }
 
 .productSection h2 .heading {
-	font-size: 21px;
+    font-size: 21px;
     line-height: 27px;
-	text-decoration: underline;
-	color: #369;
-	font-weight: bold;
-	padding-top: 5px;
+    text-decoration: underline;
+    color: #369;
+    font-weight: bold;
+    padding-top: 5px;
 }
 
 .productSection h2 .symbol {
-	position: relative;
-	font-size: 7px;
-	color: #369;
-	bottom: 10px;
+    position: relative;
+    font-size: 7px;
+    color: #369;
+    bottom: 10px;
 }
 
 .productSection .description {
-	color: #CC0000;
-	font-weight: bold;
-	padding: 15px 0 15px;
+    color: #CC0000;
+    font-weight: bold;
+    padding: 15px 0 15px;
 }
 
 .detailDesc {
-	color: #222;
-	line-height: 130%;
+    color: #222;
+    line-height: 130%;
 }
 
 hr {
     clear: both;
     margin: 40px 10px 20px 0;
     padding-top: 5px;
-    background: url("img-hr.png") no-repeat 50% 50%;
+    background: url("images/img-hr.png") no-repeat 50% 50%;
     color: transparent;
     height: 12px;
     border: 0;
 }
+
+.product_desc h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.product_desc p {
+    font-size: 15px;
+    color: #222222;
+    font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+    line-height: 1.4em;
+    margin-top: 10px;
+}
+
+#productDesc {
+    height: 210px;
+}
+
+#productDesc span {
+    color:#336699;
+    text-decoration: underline;
+}
+
+#baseCamp_desc .arrow {
+    margin-right:256px;
+}
+
+#highRise_desc .arrow {
+    margin-left: 190px;
+}
+
+#campFire_desc .arrow {
+    margin-left: 300px;
+}
+
